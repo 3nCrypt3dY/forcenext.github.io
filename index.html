@@ -9,17 +9,17 @@
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-        <title>Z-Protect - Анти краш бот</title>
+        <title>XHonX Protect - Анти краш бот</title>
         <link rel="canonical" href="index.html">
         <meta itemprop="keywords" name="keywords" content="cp, дискорд, discord, защита, севрер, servers, server, protect, краш протект, defender, crash, краш, protector, защитник, анти краш бот, crash protect">
-        <meta name="description" content="Z-Protect – Discord бот, предназначенный для защиты серверов от краша, спама и рейдов.">
-        <meta property="og:title" content="Z-Protect – анти краш бот">
+        <meta name="description" content="XHonX Protect – Discord бот, предназначенный для защиты серверов от краша, спама и рейдов.">
+        <meta property="og:title" content="XHonX Protect – анти краш бот">
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://crashprotect.ml/">
         <meta property="og:image" content="/img/protect.png">
         <meta name="theme-color" content="#0070fa">
-        <meta property="og:description" content="Z-Protect – Discord бот, предназначенный для защиты серверов от краша, спама и рейдов.">
-        <meta property="og:site_name" content="Z-Protect">
+        <meta property="og:description" content="XHonX Protect – Discord бот, предназначенный для защиты серверов от краша, спама и рейдов.">
+        <meta property="og:site_name" content="XHonX Protect">
         <script src="js/stata.js"></script>
         <script src="js/cookie.js"></script>
         <script src="js/thefinalcountdown.js"></script>
@@ -31,7 +31,7 @@
             <a href="index.html"><img id="icon" src="img/protect.png"></a>
             <a href="invite.html" class="link">Пригласить бота</a>
             <a href="support.html" class="link">Поддержка</a>
-            <a href="https://docs.zz-protect.tk" class="link">Документация</a>
+            <a href="https://docs.XHonXProtect.tk" class="link">Документация</a>
             <div class="mobile_menu" id="mm">
                 <a href="https://docs.crashprotect.ml" class="link_mob">Документация</a>
                 <p class="mi menu close" onclick="menu()">close</p>
@@ -39,7 +39,7 @@
             <p class="mi menu" id="menu" onclick="menu()">menu</p>
         </div>
         <div class="main">
-            <h1>Z-Protect</h1>
+            <h1>XHonX Protect</h1>
             <p id = "desc">Надёжный защитник Discord серверов с 2022 года</p>
             <div class="buttons">
                 <a href="invite.html">Пригласить бота</a>
@@ -52,38 +52,12 @@
         </div>
 
         <div class="footer">
-            <p>© 2022 Z-Protect | Все права защищены.</p>
+            <p>© 2022 XHonX Protect | Все права защищены.</p>
             <div class="links">
                 <a href="invite.html">Пригласить бота</a>
             </div>
         </div>
         <div id="cookie_banner"><span>Данный сайт использует куки для сохранения некоторых параметров. Пользуясь им, вы соглашаетесь с этим.</span> <div onclick="accept_cookie()">Хорошо</div></div>
-        <script>
-            var probablity = Math.floor(Math.random() * 20);
-            console.log(probablity)
-            if(probablity == 17){
-                document.getElementById("icon").src = "https://upload.wikimedia.org/wikipedia/commons/d/dd/%D0%9F%D0%BE%D0%BF-%D0%B8%D1%82.jpg";
-                document.getElementById("desc").innerHTML = "Попытер с 2021 года";
-            }
-            var cook = readCookie("accepted");
-            var authcode = readCookie("authcode");
-            if(cook == null)
-            {
-                var banner = document.getElementById("cookie_banner");
-                banner.style.visibility = "visible";
-                setTimeout(function(){
-                banner.style.opacity = "1";
-                },1000);
-            }
-            function accept_cookie()
-            {
-                var banner = document.getElementById("cookie_banner");
-                document.cookie = "accepted=1; path=/"
-                banner.style.opacity = "0";
-                setTimeout(function(){
-                    banner.style.visibility = "hidden";
-                },1000);
-            }
-        </script>
+
     </body>
 </html>
